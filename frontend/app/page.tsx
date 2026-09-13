@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-[85vh] flex flex-col items-center justify-center p-4 text-center">
       <div className="max-w-2xl bg-white/95 backdrop-blur-md p-10 rounded-2xl shadow-2xl border border-white/60 space-y-6">
         <div className="flex flex-col items-center gap-3">
-          <img src="/logo.jpg" alt="IUnderstandYou Logo" className="w-24 h-24 object-contain rounded-2xl shadow-md border border-emerald-100 bg-white p-1" />
+          <img src="/logo.jpg" alt="IUnderstandYou Logo" width={96} height={96} style={{ width: "96px", height: "96px", objectFit: "contain" }} className="w-24 h-24 object-contain rounded-2xl shadow-md border border-emerald-100 bg-white p-1" />
           <div className="inline-block bg-emerald-100 text-emerald-900 text-xs font-bold px-3.5 py-1 rounded-full border border-emerald-300 uppercase tracking-wider">
             Inteligencia Emocional & Autocuidado
           </div>

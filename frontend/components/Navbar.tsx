@@ -10,7 +10,7 @@ export function Navbar() {
     <header className="bg-white/90 backdrop-blur-md border-b border-white/40 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
-          <img src="/logo.jpg" alt="IUnderstandYou Logo" className="w-9 h-9 object-contain rounded-lg shadow-sm" />
+          <img src="/logo.jpg" alt="IUnderstandYou Logo" width={36} height={36} style={{ width: "36px", height: "36px", objectFit: "contain" }} className="w-9 h-9 object-contain rounded-lg shadow-sm" />
           <span className="bg-emerald-700 text-white font-black text-lg px-3 py-1 rounded-lg tracking-wider shadow-sm">
             IUnderstandYou
           </span>
